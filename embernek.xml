@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="hu">Embernek három fő ellensége vagyon</title>
+            <title xml:lang="en">Man hath three principal enemies</title>
+            <editor>
+               <persName>
+                  <surname>Vrabély</surname>
+                  <forename>Márk</forename></persName>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Critical edition 1.0. <date when="2019-04">April 2019</date>
+               <country key="it">Italy</country>
+               <settlement>Stresa</settlement>
+               <interpGrp>
+                  <interp xml:id="B1">Bod-kódex</interp>
+                  <interp xml:id="L1">Lobkowicz-kódex</interp>
+               </interpGrp>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <surname>Vrabély</surname>
+               <forename>Márk</forename>
+            </publisher>
+            <pubPlace>Stresa</pubPlace>
+            <date when="2019-04">April 2019</date>
+            <availability>
+               <p xml:lang="en">Version 1.0. was made during the SCUSI Summer School in April
+                  2019.</p>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p xml:lang="en">This work is licensed under a Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit ana="#B1">
+               <witness xml:id="B">Budapest, EK, Cod. Hung. 7 <msDesc>
+                     <msIdentifier>
+                        <country key="hu">Hungary</country>
+                        <settlement>Budapest</settlement>
+                        <institution>Eötvös Loránd Tudományegyetem</institution>
+                        <repository>Egyetemi Könyvtár</repository>
+                        <idno>Cod. Hung. 7</idno>
+                        <msName xml:lang="hu">Bod-kódex</msName>
+                        <msName xml:lang="en">Codex Bod</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listWit ana="#L1">
+               <witness xml:id="L">Prague, Property of the Lobkowicz family, VI. Fg. 30 <msDesc>
+                     <msIdentifier>
+                        <country key="cz">Czech Republic</country>
+                        <settlement>Prague</settlement>
+                        <repository>Lobkowicz Library</repository>
+                        <idno>VI. Fg. 30</idno>
+                        <msName xml:lang="hu">Lobkowicz-kódex</msName>
+                        <msName xml:lang="en">Codex Lobkowicz</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head><pb edRef="#B" n="1r"/><pb edRef="#L" n="133r"/>Embernek három fő ellensége
+               vagyon, kikkel éjjel-nappal kell vívnia mind holtáiglan. Kiket ha meggyőzendi,
+               mennyországot veszi, ha pediglen őtőlük meggyőztetik, pokolban leszen helye. Első <app>
+                  <lem wit="#L"/>
+                  <rdg wit="#B" cause="addition"><del>első</del></rdg>
+               </app> ellenség ez világ, másod test, harmad ördög.</head>
+
+            <p>Embernek első ellensége ez világ, ki szünetlen minket megcsal és elhitet. Azért
+               mondja Szent János: <cit type="bible">
+                  <quote>Ne akarjátok <app>
+                        <lem wit="#B">szeretnie</lem>
+                        <rdg wit="#L">szeretni</rdg>
+                     </app> ez világot, sem azokat, melyek ez világban vannak. Ki pediglen szereti
+                     ez világot, <app>
+                        <lem wit="#B">nincsen</lem>
+                        <rdg wit="#L">nincs</rdg>
+                     </app> Atyaistennek <app>
+                        <lem wit="#L">szereteti</lem>
+                        <rdg wit="#B">szereti</rdg>
+                     </app> őbenne.</quote>
+                  <bibl>I Io. 2, 15</bibl>
+               </cit> Kell azért minekünk ez világot eltávoztatnunk sok okért. Első <app>
+                  <lem wit="#B">okért</lem>
+                  <rdg wit="#L">oka</rdg>
+               </app>, mert őbenne szünetlen való félelem vagyon. Másod <app>
+                  <lem wit="#B">okért</lem>
+                  <rdg wit="#L">oka</rdg>
+               </app>, mert <pb edRef="#L" n="133v"/>semmi nyugodalom őbenne nincsen. Harmad <app>
+                  <lem wit="#B">okért</lem>
+                  <rdg wit="#L">oka</rdg>
+               </app>, mert teljes gonoszsággal. Negyed <app>
+                  <lem wit="#B">okért</lem>
+                  <rdg wit="#L">oka</rdg>
+               </app>, mert <app>
+                  <lem wit="#B">ellenkedést</lem>
+                  <rdg wit="#L">ellenséget</rdg>
+               </app> szerez Isten között és ember között. Ötöd <app>
+                  <lem wit="#B">okért</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>, mert állhatatlan és hazug. Hatod <app>
+                  <lem wit="#B">okért</lem>
+                  <rdg wit="#L">oka</rdg>
+               </app>
+               <app>
+                  <lem wit="#L" cause="omission"/>
+                  <rdg wit="#B">minekünk kell világot eltávoztatnunk</rdg>
+               </app>, mert megvakítja embernek okosságát. Mondom, hogy először kell minekünk ez
+               világot eltávoztatnunk és őtőle magunkat megoltalmaznunk az félelemért, mert őbenne
+               szüntelen való félelem vagyon, miképpen ír erről bölcs mondván: <cit>
+                  <quote>Leszen a te életed félelmes, <app>
+                        <lem wit="#L"/>
+                        <rdg wit="#B" cause="additon">te életed, </rdg>
+                     </app>miként ha <app>
+                        <lem wit="#L">teelőtted</lem>
+                        <rdg wit="#B">előtted</rdg>
+                     </app> egy szőr-, avagy hajszálon <app>
+                        <lem wit="#B">kötnének egy golyóbist fel</lem>
+                        <rdg wit="#L">felkötnének egy golyóbist</rdg>
+                     </app> minden <app>
+                        <lem wit="#L">napon</lem>
+                        <rdg wit="#B">nappal</rdg>
+                     </app>.</quote>
+               </cit> És ne higgy a te életednek. Reggel azt mondjad: <quote>Vajon ki adja énnekem
+                  az esti időt</quote>, és estve azt mondjad: <quote>Vajon ki <app>
+                     <lem wit="#L">adja</lem>
+                     <rdg wit="#B">ád</rdg>
+                  </app> énnekem a reggeli időt érnem</quote>. Az <app>
+                  <lem wit="#L">te szívednek félelméért</lem>
+                  <rdg wit="#B"><subst>
+                        <del>félelemnek miatta</del>
+                        <add>te szívednek félelméért</add>
+                     </subst></rdg>
+               </app> mondjad azt, mely félelemnek miatta rettegsz. És méltán teszed ezt, mert
+               míglen ez világban vagy, nem tudod, <pb edRef="#L" n="134r"/>míglen vagy, és minemű
+               halállal kell meghalnod és mely helyen, és nem tudod, ha Istennek szeretetire vagy
+               méltó, a<pb edRef="#B" n="1v" break="n"/>vagy ő haragjára, és nem tudod, ha
+               üdvözülsz, avagy kárhozol, ez világnak gyakorlatos állhatatlanságiért, kikhez ember
+               ragaszkodik az bűnnek miatta. Mert gyakorta az madár étket keresvén tőrben esik,
+               avagy a hal alítván <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">az</rdg>
+               </app> étket <app>
+                  <lem wit="#B">hasába vonzza az horgot</lem>
+                  <rdg wit="#L">benyelnie, tehát a horgot nyelte be</rdg>
+               </app>. <app>
+                  <lem wit="#B">Ezenképpen</lem>
+                  <rdg wit="#L">Ugyanezenképpen</rdg>
+               </app> ember ez világban alítá igazán viselnie életét ez világi marhát keresvén, de
+               mikoron halálára jut, akkoron <app>
+                  <lem wit="#B">látja</lem>
+                  <rdg wit="#L">meglátja</rdg>
+               </app>, hogy nem keresett magának életet, de halált. Miképpen Szent Gergely doktor
+               mondja: <cit type="source">
+                  <quote>Ki evilági marhát szereti, avagy akarja, <app>
+                        <lem wit="#B">avagy</lem>
+                        <rdg wit="#L">akár</rdg>
+                     </app> nem <app>
+                        <lem wit="#B">akarja</lem>
+                        <rdg wit="#L" cause="omission"/>
+                     </app>, félelemnek és bánatnak kínjában esik.</quote>
+                  <bibl><author>Saint Gregory the Great</author></bibl>
+               </cit> Mert míglen ember ez világban él, soha meg nem ismerheti őmagát <pb edRef="#L"
+                  n="134v"/>nyilván<app>
+                  <lem wit="#B">, hanem csak ő halálának idején</lem>
+                  <rdg wit="#L"/>
+               </app>. Akkoron mindenek nyilván lesznek az okosságnak szemei előtt, avagy jók, avagy
+               gonoszok. Azért példa olvastatik Arisztotelész nevű pogány bölcsességéről, ki mikoron
+               jutott volna halálára, <app>
+                  <lem wit="#L">kérék</lem>
+                  <rdg wit="#B">kérét</rdg>
+               </app> őtet az ő tanítványi, hogy mondana nekik valami jó tanulságot. Ki felelvén
+               mondá: <quote>Mezítelen jöttem ez világra, nagy bánattal éltem, és nagy keserűséggel
+                  megyek ki belőle, és nem tudom, hol leszen <app>
+                     <lem wit="#B">szállásom, </lem>
+                     <rdg wit="#L" cause="omission"/>
+                  </app>hálásom.</quote> Azért mondja bölcs Salamon: <cit type="bible">
+                  <quote>Nem tudja ember ő végét, de miképpen a hal megfogattatik a horognak miatta,
+                     ezenképpen az ember a gonosz időnek miatta.</quote>
+                  <bibl>Ecl. 9, 12</bibl>
+               </cit></p>
+
+            <p>Másod okért eltávoztatandó ez világ, mert semmi nyugodalom nincsen őbenne, de
+               szünetlen való munka és bánat <app>
+                  <lem wit="#B">és</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> keserűség. Azért mondja bölcs Salamon: <cit type="bible">
+                  <quote>Embernek <app>
+                        <lem wit="#L">közönséges</lem>
+                        <rdg wit="#B">közönségi és</rdg>
+                     </app> napi teljesek nyomorúsággal és nya<pb edRef="#L" n="135r" break="n"
+                     />valyákkal, és éjjel sem nyugalmas ő elméiben.</quote>
+                  <bibl>Ecl. 2, 23</bibl>
+               </cit> És bizonyában ez mind leszen az mind <app>
+                  <lem wit="#B">engedetlenségünknek</lem>
+                  <rdg wit="#L">engedetlenségeknek</rdg>
+               </app> gonoszságáért. Mert úgy mond Isidorus doktor: <cit type="source">
+                  <quote>Ha ember paradicsomban ártatlanul élt volna, <app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="additon">tehát még</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#B">sem a szén</lem>
+                        <rdg wit="#L">a szén sem</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#L">égetné</lem>
+                        <rdg wit="#B">ége<del>the</del>tné</rdg>
+                     </app> meg őtet, <app>
+                        <lem wit="#B">sem a víz</lem>
+                        <rdg wit="#L">a víz sem</rdg>
+                     </app>
+                     <pb edRef="#B" n="2r"/><app>
+                        <lem wit="#L">merítenéje</lem>
+                        <rdg wit="#B">merít<del>h</del>e<del>t</del>néje</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#L">el</lem>
+                        <rdg wit="#B">meg</rdg>
+                     </app>, <app>
+                        <lem wit="#B">sem az égnek távol volta</lem>
+                        <rdg wit="#L">és az égnek távol volta sem</rdg>
+                     </app> fojtanája meg, <app>
+                        <lem wit="#B">sem mindenek,</lem>
+                        <rdg wit="#L" cause="omission"/>
+                     </app>
+                     <app>
+                        <lem wit="#B">melyek</lem>
+                        <rdg wit="#L">valamelyek</rdg>
+                     </app> ártanak <app>
+                        <lem wit="#B">embereknek</lem>
+                        <rdg wit="#L">embernek</rdg>
+                     </app>, <app>
+                        <lem wit="#B">árthatnának őneki</lem>
+                        <rdg wit="#L">semmi azok közül neki nem ártanának</rdg>
+                     </app>.</quote>
+                  <bibl><author>Isidore of Seville</author></bibl>
+               </cit> De az engedetlenségnek bűnének utána <app>
+                  <lem wit="#B">következének</lem>
+                  <rdg wit="#L">következnek</rdg>
+               </app> hét fogyatkozások, <app>
+                  <lem wit="#B">tudnia illik</lem>
+                  <rdg wit="#L">tudniamint</rdg>
+               </app> éhség, szomjúság, hidegség, hőség, munka, fájdalom és kórság és <app>
+                  <lem wit="#L"/>
+                  <rdg wit="#B" cause="addition"><del>sok</del></rdg>
+               </app> sok egyéb nyavalyák, kiktől meg nem szabadul, míglen ez világban él. Miképpen
+               Szent Jób teszen erről tanúbizonyságot mondván: <cit type="bible">
+                  <quote>Ember, ki asszonyállattól <app>
+                        <lem wit="#B">születik</lem>
+                        <rdg wit="#L">születtetik</rdg>
+                     </app>, rövid ideiglen él ez világban, és sok gyarlóságokkal telik be.</quote>
+                  <bibl>Iob 14, 1</bibl>
+               </cit> És méltán mondja ezt, mert <pb edRef="#L" n="135v"/>emberi elme mindenkoron <app>
+                  <lem wit="#B">készebb</lem>
+                  <rdg wit="#L">gyorsabb</rdg>
+               </app> a gonoszra, hogynem a jóra. Miképpen erről ír Szent Mózes próféta mondván:
+                  <cit type="bible">
+                  <quote>Emberi szívnek érzékenysége és gondolatja <app>
+                        <lem wit="#B">mindenha</lem>
+                        <rdg wit="#L">mindenkor</rdg>
+                     </app> kész a gonoszra ő ifjúságától fogva.</quote>
+                  <bibl>Gn. 8, 21</bibl>
+               </cit> És minekokáért ilyen állhatatlanság vagyon ez <app>
+                  <lem wit="#L">világon</lem>
+                  <rdg wit="#B">vagyon</rdg>
+               </app>, azért el kell embernek őtőle futnia, és <app>
+                  <lem wit="#B">őtet</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> eltávoztatnia.</p>
+
+            <p>Harmad okért ez jelen való világ eltávoztatandó, mert teljes gonoszsággal és
+               veszedelemmel. Miként Szent János teszen erről tanúbizonyságot mondván: <cit
+                  type="bible">
+                  <quote>Minden, <app>
+                        <lem wit="#B">mi</lem>
+                        <rdg wit="#L">valami</rdg>
+                     </app> ez <app>
+                        <lem wit="#B">világon</lem>
+                        <rdg wit="#L">világban</rdg>
+                     </app> vagyon, avagy hogy testi kívánság, azaz paráznaság, avagy szemnek
+                     kívánsága, azaz fösvénység, avagy életnek kevélysége.</quote>
+                  <bibl>I Io. 2, 16</bibl>
+               </cit> Azért ez bűnöknek miatta mind ez világ gonoszban <app>
+                  <lem wit="#B">vettetett</lem>
+                  <rdg wit="#L">vetettetett</rdg>
+               </app>, azaz ördögnek hatalma alá. Mert valaki ez hármakat követi, ördögnek hatalma
+               vagyon <pb edRef="#L" n="136r"/>őrajta. Mert úgy ír Szent János <app>
+                  <lem wit="#B">látásáról</lem>
+                  <rdg wit="#L">isteni látásról</rdg>
+               </app> szerzett könyvében: <cit type="bible">
+                  <quote>Jaj, jaj, jaj ez földön való embereknek!</quote>
+                  <bibl>Apc. 8, 13</bibl>
+               </cit> Jaj az paráznáknak, jaj az fösvényeknek, jaj a kevélyeknek! Ha kedig akarod ez
+               hármakat eltávoztatnod, fussad el <app>
+                  <lem wit="#L">ez</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> világot <app>
+                  <lem wit="#B">és</lem>
+                  <rdg wit="#L">ez</rdg>
+               </app> a bűnöket. Mert úgy mond Szent Dávid a zsoltár könyvében: <cit type="bible">
+                  <quote>Feledjed el az te népedet és a te atyádnak házát.</quote>
+                  <bibl>Ps. 45, 11</bibl>
+               </cit> Szent Ambrus magyarázván ezt úgy mond: <cit type="source">
+                  <quote>Az <app>
+                        <lem wit="#L">olyan</lem>
+                        <rdg wit="#B"/>
+                     </app> em<pb edRef="#B" n="2v" break="n"/>ber <app>
+                        <lem wit="#L">feledi</lem>
+                        <rdg wit="#B">földi</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#L">el az ő</lem>
+                        <rdg wit="#B">elő</rdg>
+                     </app> népét, <app>
+                        <lem wit="#B">ki</lem>
+                        <rdg wit="#L">aki</rdg>
+                     </app> elhagyja <app>
+                        <lem wit="#L">minden</lem>
+                        <rdg wit="#B">ő</rdg>
+                     </app> bűnét, és az <app>
+                        <lem wit="#L">feledi</lem>
+                        <rdg wit="#B">földi</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#L">el ő</lem>
+                        <rdg wit="#B">elő</rdg>
+                     </app> atyjának házát, ki ez világnak hamis gazdagságit megutálja, kiknek
+                     miatta őtet ördög <app>
+                        <lem wit="#B">tartja fogván</lem>
+                        <rdg wit="#L">fogva tartja</rdg>
+                     </app>.</quote>
+                  <bibl><author>Ambrose</author></bibl>
+               </cit> És méltán tartja <app>
+                  <lem wit="#B">őtet fogván</lem>
+                  <rdg wit="#L">fogván őtet</rdg>
+               </app>, mert miképpen a fogoly soha nem teheti azt, amit akarna <app>
+                  <lem wit="#B">tennie</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>, mert mikoron akarnája magát megaláznia, <app>
+                  <lem wit="#L">legottan</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> ez világ teszi őtet kevélykednie, és mikoron akarnája kívánnia az mennyeieket, <app>
+                  <lem wit="#L">ez</lem>
+                  <rdg wit="#B">és</rdg>
+               </app> világ <pb edRef="#L" n="136v"/>vonzá őtet az ő kívánságára. És ezenképpen a
+               gyarló embert az ő csalárdságinak miatta mindenha vonzá a kínokra. Azért olvastatik
+               példa, hogy egyszer <app>
+                  <lem wit="#B">Isten</lem>
+                  <rdg wit="#L">az Úristen</rdg>
+               </app> ez három bűnökért, kevélységért, fösvénységért <app>
+                  <lem wit="#B">és</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> paráznaságért akará mind ez világot elvesztenie, eresztvén őreája három tüzes
+               lándzsákat ő haragjában. És ezt meglátván az ő kegyes <app>
+                  <lem wit="#B">anyja</lem>
+                  <rdg wit="#L">szülője</rdg>
+               </app>, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">az édes</rdg>
+               </app> Szűz Mária, térdre esék ő szent Fia előtt, és ezt mondá: <quote>Kérlek én
+                  szerető Fiam, hogy ne tegyed ezt, de emlékezzél meg a te édességes beszédedről,
+                  holott azt mondád: <cit type="bible">
+                     <quote>Nem akarom az bűnösnek halálát, de hogy <app>
+                           <lem wit="#L">megtérjen az ő bűnéből, és éljen</lem>
+                           <rdg wit="#B">inkább éljen</rdg>
+                        </app>, azt akarom.</quote>
+                     <bibl>Ez. 33, 11</bibl>
+                  </cit> Kérlek, hogy ne haragudjék a te hirtelenséged mind <app>
+                     <lem wit="#B">az egy közönséges</lem>
+                     <rdg wit="#L">ez teljes</rdg>
+                  </app> világra, mert vannak énnekem szolgáim, prédikátorok, kik megfeddik ez
+                  világot.</quote> És ezenképpen megengesztelteték <app>
+                  <lem wit="#L">az</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> Úr<pb edRef="#L" n="137r" break="y"/>isten, <app>
+                  <lem wit="#L">és kegyelmeze ez világgal</lem>
+                  <rdg wit="#B">hogy nem veszté el ez világot</rdg>
+               </app>.</p>
+
+            <p>Negyedszer kell embernek ez világot eltávoztatnia, mert ellenkedéseket vet Isten
+               között és ember között. Miképpen Szent Jakab apostol teszen erről tanúbizonyságot
+               mondván: <cit type="bible">
+                  <quote>Valaki akarand <app>
+                        <lem wit="#B">lenni ez világnak barátja</lem>
+                        <rdg wit="#L">ez világnak barátja lenni</rdg>
+                     </app>, <app>
+                        <lem wit="#B">Istennek leszen</lem>
+                        <rdg wit="#L">leszen Istennek</rdg>
+                     </app> ellensége.</quote>
+                  <bibl>Iac. 4, 4</bibl>
+               </cit> Nagy bolondság embernek <app>
+                  <lem wit="#B">szeretnie azt</lem>
+                  <rdg wit="#L">azt szeretnie</rdg>
+               </app>, <app>
+                  <lem wit="#B">kinek</lem>
+                  <rdg wit="#L">melynek</rdg>
+               </app> miatta nyeri az örök gyűlölséget, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">és</rdg>
+               </app> azt vallania, kinek miatta <app>
+                  <lem wit="#L">elveszti</lem>
+                  <rdg wit="#B">elhagyja</rdg>
+               </app> az örök boldogságot, azt követnie, ki viszen az örök kínra. És mindezt teszi <app>
+                  <lem wit="#B">ez</lem>
+                  <rdg wit="#L">el</rdg>
+               </app> világi <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">gonosz</rdg>
+               </app> élet. Erről úgy mond <app>
+                  <lem wit="#B">Urunk Krisztus</lem>
+                  <rdg wit="#L">a mi nemes üdvözítőnk, áldott Jézus</rdg>
+               </app> őmaga: <cit type="bible">
+                  <quote><app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="addition">Vajon s</rdg>
+                     </app> Mit használ embernek, ha mind ez <app>
+                        <lem wit="#B">egész</lem>
+                        <rdg wit="#L"/>
+                     </app> világot <app>
+                        <lem wit="#B">megnyerné</lem>
+                        <rdg wit="#L">megnyerheti</rdg>
+                     </app>, az ő lelkét pedig <app>
+                        <lem wit="#B">elkárhoztat<pb edRef="#B" n="3r" break="n"/>nája</lem>
+                        <rdg wit="#L">elkárhoztatja</rdg>
+                     </app>?</quote>
+                  <bibl>Mc. 8, 36</bibl>
+               </cit> Íme ha ezerszer való ezer világokat vallanád, ha <app>
+                  <lem wit="#L">gonoszságban mégy</lem>
+                  <rdg wit="#B">ez világi gonosz életedben múlsz</rdg>
+               </app> ki <pb edRef="#L" n="137v"/>ez világból töredelmesség nélkül és gyónás nélkül, <app>
+                  <lem wit="#B">nemde</lem>
+                  <rdg wit="#L">minemde</rdg>
+               </app>
+               <app>
+                  <lem wit="#L">megengesztelnek-e</lem>
+                  <rdg wit="#B">megengesztel<del>tet</del>nek-e</rdg>
+               </app> ezek téged Istennek? Bizonyában nem. Jaj azért efféle embereknek, kik kevés és
+               kisded gyönyörűségért ő szívüket és minden kívánságokat <app>
+                  <lem wit="#L">ő erejükkel</lem>
+                  <rdg wit="#B">örökül</rdg>
+               </app> egyetemben költik el ez világi életért, alítván, hogy ne legyen nagyobb öröm,
+               mint ez jelen való világnak ő vigassága. Mert ez ilyetének hasonlatosok a
+               vakondokhoz, ki nem hiszen egyéb kincset lennie, mint a földet túrnia és benne
+               lakoznia, demaga egyéb kincsek vannak, melyeket ők nem tudnak. Erről <app>
+                  <lem wit="#B">ily</lem>
+                  <rdg wit="#L">oly</rdg>
+               </app> példa olvastatik. Vala egy király, ki három országot bír vala, de mégis többet
+               akar vala bírnia. Történék, hogy megkórula. Ki kétségben esvén ő életéről,
+               parancsolá, hogy három sing gyolcsot kötnének ő kopjájára, és <app>
+                  <lem wit="#L">viselnéjék</lem>
+                  <rdg wit="#B">viselnéjét</rdg>
+               </app> városról városra, utcákon <pb edRef="#L" n="138r"/>kiáltván király szavát, és
+               mondván: <quote>Én három országnak valék fejedelme, kikkel meg <app>
+                     <lem wit="#B">nem</lem>
+                     <rdg wit="#L">sem</rdg>
+                  </app> elégedem, de többet kívánok vala, alítván, hogy ne legyen nagyobb öröm,
+                  mint kincset <app>
+                     <lem wit="#B">gyűjtenie</lem>
+                     <rdg wit="#L">gyűjteni</rdg>
+                  </app> és országokat bírnia. Mostan pediglen megelégedtem három sing földdel és
+                  három sing vászonnal, kivel befedezem én telhetetlen szemeimet.</quote> Ezenképpen
+               bizonyában leszen mindenekről, kik ez világi marhába telhetetlenek. Először ő
+               telhetetlen szemüket berekeszti az hévság, de megnyittatnak az kínokban, holott őket
+               az ő gonosz gazdagsági nem segítik, de nagyobban <app>
+                  <lem wit="#B">gyötrettetnek</lem>
+                  <rdg wit="#L">gyötretnek</rdg>
+               </app>, miképpen Szent János írja, <app>
+                  <lem wit="#B">Isten</lem>
+                  <rdg wit="#L">isteni</rdg>
+               </app> mondása: <cit type="bible">
+                  <quote>Mennyivel nagyobb dicsőségben és gyönyörűségben volt, annyival nagyobb
+                     siralmat és kínt adjatok őneki.</quote>
+                  <bibl>Apc. 18, 7</bibl>
+               </cit></p>
+
+            <p>Ötöd <app>
+                  <lem wit="#L">okért</lem>
+                  <rdg wit="#B">okáért</rdg>
+               </app> ez világ eltávoz<pb edRef="#L" n="138v" break="n"/>tatandó, mert állhatatlan
+               és hazug. Mert sokakat ígér, de keveseket ad. Mert néha ígér hosszú életet, néha
+               gazdagságokat és tisztességeket, né<pb edRef="#B" n="3v" break="n"/>ha bátorságokat,
+               demaga hazud, mert gyakorta félelmet és bánatot hoz. Azért mondja bölcs: <cit
+                  type="bible">
+                  <quote>Nevetséget alítottam tévelygésnek és hévságnak, és örömnek mondék. Mit
+                     csalárdkodol hiába?</quote>
+                  <bibl>Ecl. 2, 2</bibl>
+               </cit> Mert méltán ez világ hasonlattatik <app>
+                  <lem wit="#B">az</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> csalárd baráthoz, ki ő barátjának szemébe szépen szól, de hátul vermet ás
+               őalája. <app>
+                  <lem wit="#B">Azért</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> erről ilyen példa olvastatik. Vala egy vitéz, ki annyira adta vala őmagát ez
+               világi életnek, hogy Istenről semmit nem gondolkodik vala, de mind ő erejét ez világi
+               hévságra költi vala. Ki egyszer isteni ihlésnek miatta kezde őmagában gondolkodnia,
+               hogy kicsoda volna <pb edRef="#L" n="139r"/>ez világ, és minemű volna, kinek ilyen
+               nagy buzgósággal ő szolgálna. És mikoron ezt gondolnája az vitéz, íme jelenék őneki
+               egy szépségű asszonyállat, ki mondá a vitéznek: <quote>Mit gondolkodol énrólam? Én
+                  vagyok ez világ, kinek ilyen nagy buzgósággal <app>
+                     <lem wit="#B">és</lem>
+                     <rdg wit="#L" cause="omission"/>
+                  </app> szeretettel szolgálsz.</quote> Kire tekintvén a vitéz mondá: <quote>Immár
+                  nem bánom, hogy ilyen szép asszonyállatnak szolgáltam.</quote> Kinek mondá az
+               asszonyállat: <quote>Immár láttál <app>
+                     <lem wit="#B">engem</lem>
+                     <rdg wit="#L">engemet</rdg>
+                  </app> arcul, de láss hátul is.</quote> És mikoron háttal fordult volna hozzája, <app>
+                  <lem wit="#B">láta</lem>
+                  <rdg wit="#L">látván</rdg>
+               </app> a vitéz őbenne különb-különb kínoknak nemit, tudnia illik szénnek, hidegnek,
+               büdösségnek és kígyóknak kínját. Kit látván az vitéz földre leesék, és mondá:
+                  <quote>Jaj, jaj, átkozott világ, mely igen sokakat csalsz te meg!</quote> Kinek
+               mondá az as<pb edRef="#L" n="139v" break="n"/>szonyállat, a világ: <quote>Én
+                  mindeneknek szépen <app>
+                     <lem wit="#B">mutatom</lem>
+                     <rdg wit="#L">mutattam</rdg>
+                  </app> magamat, hogy megcsalhatnám, de bizonyában mind én szolgáimat, kik engem el
+                  nem hagynak, ez kínokkal ajándékozom meg végre.</quote> Ezeket megmondván
+               elenyészék előle. Annak okáért minden eszébe vegye magát ez mondott <app>
+                  <lem wit="#B">igéken</lem>
+                  <rdg wit="#L">igéket</rdg>
+               </app>, mely nagy csalárdság legyen ez világi életben. Azért mondja bölcs Salamon:
+                  <cit type="bible">
+                  <quote><app>
+                        <lem wit="#B">Ki</lem>
+                        <rdg wit="#L">Valaki</rdg>
+                     </app> mézet visel ő szájába, és engemet <app>
+                        <lem wit="#L">hátul</lem>
+                        <rdg wit="#B" cause="omission"/>
+                     </app> meg akar <app>
+                        <lem wit="#B">fuvaltatnia</lem>
+                        <rdg wit="#L">fuvallania</rdg>
+                     </app>, az ő barátságát nem akarom lennie én társaim közül valót.</quote>
+                  <bibl>Prv. 25, 27</bibl>
+               </cit></p>
+
+            <p><pb edRef="#B" n="4r"/>Hatod okért <app>
+                  <lem wit="#B">eltávoztatandó</lem>
+                  <rdg wit="#L">el kell távoztatnia</rdg>
+               </app> ez jelen való <app>
+                  <lem wit="#B">világ emberektől</lem>
+                  <rdg wit="#L">világot embernek</rdg>
+               </app>, mert megvakítja embernek okosságát, hogy nem ismerheti azokat, melyek <app>
+                  <lem wit="#B">neki</lem>
+                  <rdg wit="#L">őneki</rdg>
+               </app> üdvösségére <app>
+                  <lem wit="#B">volnának</lem>
+                  <rdg wit="#L">volnánat</rdg>
+               </app>, és végre viszi őtet <app>
+                  <lem wit="#L">pokolnak</lem>
+                  <rdg wit="#B">pokol<subst>
+                        <del>ra</del>
+                        <add>nak</add>
+                     </subst></rdg>
+               </app> örök kínjára. <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L"><del>És mikoron ezt gondolnája az</del></rdg>
+               </app>
+               <pb edRef="#L" n="140r"/>Miképpen nyilván vagyon sokakban, ez világot szeretőkben,
+               kik megvakulván ő erőiket és idejüket hévságban költik el. Kik közül némelyek
+               Istentől nekik megjelent malasztnak miatta, <app>
+                  <lem wit="#L">némelyek pediglen kínoknak miatta</lem>
+                  <rdg wit="#B"/>
+               </app> megismerték ő bolondságukat, miképpen írja bölcs Salamon ő képükben mondván:
+                  <cit type="bible">
+                  <quote>Mit használt minekünk ez világi életnek <app>
+                        <lem wit="#L">kevélysége</lem>
+                        <rdg wit="#B">bősége</rdg>
+                     </app>, avagy mit adott minekünk ez világi gazdagságoknak magahányása?
+                     Elmúltanak mindenek, miképpen az árnyék, és miképpen az hajó folyóvizen
+                     elmenvén semmi nyomot nem hagy. Megfáradoztunk azért az álnokságnak és
+                     veszedelmeknek után, és jártunk nehéz utakon, Úrnak pediglen útját meg nem
+                     ismertük.</quote>
+                  <bibl>Sap. 5, 7–10</bibl>
+               </cit> Példa. Mert ez világ olyan, <pb edRef="#L" n="140v"/>miképpen a madarász, ki a
+               madaraknak szépen énekelvén kényszeríti őket bemennie az tőrbe, avagy az <app>
+                  <lem wit="#L">enyvesbe</lem>
+                  <rdg wit="#B">enyőbe</rdg>
+               </app>. Mely madarakat mikoron megfogja a madarász, <app>
+                  <lem wit="#B">rettenetesen</lem>
+                  <rdg wit="#L">rettenesen</rdg>
+               </app> megöldösi őket. Ezenképpen vagyon ez világról, ki ez világi marhákat <app>
+                  <lem wit="#B">édesekké teszi</lem>
+                  <rdg wit="#L">édességgel gyűjti</rdg>
+               </app>, de a kínt meg nem mutatja, kit érdemlene őérettük. Íme azért mely kegyetlen
+               ellensége embereknek ez világ. De bizonyában ezt meg <app>
+                  <lem wit="#B">nem</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> győzheti ember egyébbel, hanem csak az alázatossággal. Erről ilyen példa
+               olvastatik a világbíró Nagy Alexanderről. Ki mikoron küldötte volna <app>
+                  <lem wit="#L">követét</lem>
+                  <rdg wit="#B">követit</rdg>
+               </app> paradicsomhoz kérdvén, ha odamehetne, felelének <app>
+                  <lem wit="#L">paradicsomból a követnek</lem>
+                  <rdg wit="#B">az követeknek paradicsomból</rdg>
+               </app>, hogy senki <app>
+                  <lem wit="#B">oda nem mehetne</lem>
+                  <rdg wit="#L">nem mehetne oda</rdg>
+               </app>, hanem csak <app>
+                  <lem wit="#L">az</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> alázatossággal. És egy <pb edRef="#L" n="141r"/>vén paradicsomból <app>
+                  <lem wit="#B">kijövén</lem>
+                  <rdg wit="#L">kijőve</rdg>
+               </app>, ada a követnek egy követ, ki vala emberi szemnek hasonlatosságára, hogy <app>
+                  <lem wit="#L">vinné</lem>
+                  <rdg wit="#B">vinnék</rdg>
+               </app> ő <app>
+                  <lem wit="#L">urának</lem>
+                  <rdg wit="#B">uruknak</rdg>
+               </app>. Mely követ mikoron <app>
+                  <lem wit="#B">elvette volna Alexander</lem>
+                  <rdg wit="#L">hozták volna Alexandernak</rdg>
+               </app>, mutatá <app>
+                  <lem wit="#B">azt</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>
+               <pb edRef="#B" n="4v"/>egy bölcsnek, hogy őneki megmondaná az kőnek jószágát. Mely
+               bölcs mikoron <app>
+                  <lem wit="#B">vetette</lem>
+                  <rdg wit="#L">vette</rdg>
+               </app> volna a követ mértékre, oly igen nehéz lőn, hogy valamit tesznek vala ellene,
+               mindent megnyom vala. Végezetre az bölcs egy <app>
+                  <lem wit="#B">kis</lem>
+                  <rdg wit="#L">kicsiny</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">ruhácskába</lem>
+                  <rdg wit="#L">ruhába</rdg>
+               </app> takará az követ, és tőn ellene <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L">csak</rdg>
+               </app> egy pénzt, ki ottan megnyomá az követ. Továbbá <app>
+                  <lem wit="#L">tén</lem>
+                  <rdg wit="#B">tevén</rdg>
+               </app> egy tollszálat ellene, <app>
+                  <lem wit="#B">az</lem>
+                  <rdg wit="#L">az<add>t</add></rdg>
+               </app> is legottan megnyomá. Mikoron ezen csodálkodnék az Alexander és az ő vitézi,
+               mondá a bölcs: <quote>Ó világbíró fejedelem, <pb edRef="#L" n="141v"/>ez kőnek
+                  természeti méltán <app>
+                     <lem wit="#B">tégedet</lem>
+                     <rdg wit="#L">téged</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#L">illet</lem>
+                     <rdg wit="#B">illeti</rdg>
+                  </app>, mert minden országok, tartományok, városok, vidékek, várak nem elegek
+                  teneked, mégis többet nyom és kíván a te elméd és szíved. De mikoron befedeztetik
+                  a te tested és <app>
+                     <lem wit="#B">te</lem>
+                     <rdg wit="#L"/>
+                  </app> szíved az koporsóban, akkoron többet használ egy fillér, avagy egy pénz,
+                  avagy egy tollszál, mert ember ezeknek használatját veszi, de a te tested semmit
+                  nem használ, hanem csak büdösség és rothadatosság.</quote> Ó ember, azért <cit
+                  type="bible">
+                  <quote>emlékezzél meg a te halálodról, és <app>
+                        <lem wit="#B">örökkül</lem>
+                        <rdg wit="#L">örökké</rdg>
+                     </app> nem vétkezel</quote>
+                  <bibl>Sir. 7, 36</bibl>
+               </cit>. Gondoljad meg, holott vannak a királyok, jobbágyok, hercegek, nemesek, kik
+               ennekelőtte voltanak. Aranyat, ezüstöt és egyéb <app>
+                  <lem wit="#B">marhákat</lem>
+                  <rdg wit="#L">marhát</rdg>
+               </app> gyűjtöttenek, ettenek, ittanak, vigadtanak, és halálos bűnben múltanak ki ez
+               világból, és örök pokolra men<pb edRef="#L" n="142r" break="y"/>tenek. Azért szerető
+               atyámfiai, jó húgaim, eszetekbe vegyétek magatokat, és úgy éljetek ez világon, hogy
+               az jószágos dolgok lenyomódják a gonoszokat. És <app>
+                  <lem wit="#B">kövessétek</lem>
+                  <rdg wit="#L">kövessed</rdg>
+               </app> a Krisztust, ki mennyei király lévén megalázá magát, emberré lőn miérettünk
+               bűnösökért, és nagy szegénységet tarta ez világon, nekünk példát adván, hogy mi is <app>
+                  <lem wit="#B">megutálnók</lem>
+                  <rdg wit="#L">megutálnót</rdg>
+               </app> ez világot. Mert <app>
+                  <lem wit="#B">ki</lem>
+                  <rdg wit="#L">valaki</rdg>
+               </app> ez világot űzi, hasonlatos az pókhoz, ki mind <app>
+                  <lem wit="#L">éjjel-nappal munkálkodik</lem>
+                  <rdg wit="#B">éj-nappá elmunkálkodik</rdg>
+               </app>, kivonzá belét, és hálót köt benne, hogy legyet, avagy szúnyogot fogna, kivel
+               élne. Eljő egy dongólégy, és mind elszaggatja. Ezenképpen ember ez világi marhát <app>
+                  <lem wit="#L">éjjel és nappal</lem>
+                  <rdg wit="#B">éj-nappá</rdg>
+               </app> keresi, eljő a halál, <app>
+                  <lem wit="#B">és</lem>
+                  <rdg wit="#L"/>
+               </app> mind elveszi őtőle.</p>
+
+            <p><pb edRef="#B" n="5r"/>Másod ellensége embernek a test, ki mindenkoron <pb edRef="#L"
+                  n="142v"/>ellenkedik a lélek ellen, ki Istennek képe. De ez mellé tudnia kell,
+               hogy emberben két állat vagyon, lélek és test, és ez kettő mindenkoron egymással vív,
+               és őközülük mindenik vonzá az okosságot az ő kívánságára egymás ellen. És miért a
+               lélek nemes állat, Istennek képére teremtetett, <app>
+                  <lem wit="#L">mindenha</lem>
+                  <rdg wit="#B">minden</rdg>
+               </app> jókat kíván. De miért a test hitványságos állatból szereztetett, az földből,
+               mindenha gonoszokat kíván, <app>
+                  <lem wit="#B">kik léleknek kárhozatjára vannak</lem>
+                  <rdg wit="#L">ki léleknek kárhozatjára vagyon</rdg>
+               </app>. Azért mondja Szent Pál: <cit type="bible">
+                  <quote>Atyámfiai, lélek szerént járjatok, és a testnek kívánságát ne tegyétek,
+                     mert a test lélek ellen kíván, és a lélek test ellen. Mert ha test szerént
+                     élendetek, meghaltok. Ha pediglen lélek szerént a testi dolgokat megölitek,
+                     tehát éltek. <pb edRef="#L" n="143r"/>Mert valakik lélek szerént élnek, azok
+                     Istennek fiai, kik <app>
+                        <lem wit="#L">pediglen</lem>
+                        <rdg wit="#B">pedig</rdg>
+                     </app> test szerént élnek, azok ördögnek fiai.</quote>
+                  <bibl>Gal. 5, 16–17</bibl>
+               </cit> Ezt mondja Szent Pál. Mózes prófétának Isten <app>
+                  <lem wit="#B">ily</lem>
+                  <rdg wit="#L">elő</rdg>
+               </app> parancsolatot adott volt, hogy <cit type="bible">
+                  <quote> mikoron két ember <app>
+                        <lem wit="#L"/>
+                        <rdg wit="#B" cause="addition"><del>egy</del></rdg>
+                     </app> összeveszne, és egyik a másikat megütné kővel, avagy ököllel, ha meg nem
+                     halna az ember, de pálcán járna, tehát aki megütötte, fizetnéje meg az orvosnak
+                     a költséget, miért meggyógyította.</quote>
+                  <bibl>Ex. 21, 18–19</bibl>
+               </cit> Lélek szerént a két hasonló az test és az lélek, kik mindenha egybevívnak, és
+               gyakorta a test megüti a lelket, gonosz mívelkedettel megöklözi, avagy <app>
+                  <lem wit="#L">kezében</lem>
+                  <rdg wit="#B">kétségben</rdg>
+               </app> való esésnek köveivel. Mely lélek míglen meg nem holt az örök tűznek
+               halálával, jóllehet hogy megholt a bűnnek <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">ő</rdg>
+               </app> halálával, <pb edRef="#L" n="143v"/>de meggyógyulhat, ha támaszkodik Krisztus
+               keresztfájának ő pálcájára, és ezenképpen járand az örök életre az isteni
+               irgalmasságnak reménysége miatt. Azért igazság azt adja, hogy a test fizesse meg az
+               költséget a léleknek <app>
+                  <lem wit="#B">megvigasztalásáért</lem>
+                  <rdg wit="#L">megvigasztásáért</rdg>
+               </app> kemény penitenciatartásának miatta. Mert úgy mond Szent Bernáld: <cit
+                  type="source">
+                  <quote>Ha akarsz penitenciát tartania, meg kell a te testedet <app>
+                        <lem wit="#L">tagadnod</lem>
+                        <rdg wit="#B">tagadnia</rdg>
+                     </app>, <app>
+                        <lem wit="#L">gyötrened</lem>
+                        <rdg wit="#B">gyötörnie</rdg>
+                     </app>, és <app>
+                        <lem wit="#L">megenyhítened</lem>
+                        <rdg wit="#B">enyhítenie</rdg>
+                     </app> és tennenma<pb edRef="#B" n="5v" break="n"/>gadat <app>
+                        <lem wit="#L">ítélned</lem>
+                        <rdg wit="#B">ítélnie</rdg>
+                     </app>, hogy <app>
+                        <lem wit="#B">be</lem>
+                        <rdg wit="L"/>
+                     </app> ne essél az élő Istennek kezébe.</quote>
+                  <bibl><author>Bernard of Clairvaux</author></bibl>
+               </cit> Mert miképpen a hideglelő kórságbeli ember <app>
+                  <lem wit="#B">mindenkoron</lem>
+                  <rdg wit="#L">koronként</rdg>
+               </app> hideg vizet kíván innia, <app>
+                  <lem wit="#B">ki</lem>
+                  <rdg wit="#L">magafelette</rdg>
+               </app> igen árt neki, ezenképpen a bűnnel megdögletett test azt kívánja mindenha, <app>
+                  <lem wit="#B">mi</lem>
+                  <rdg wit="#L">ami</rdg>
+               </app> a léleknek árt. De úgy mond Szent Bernáld, <pb edRef="#L" n="144r"/>hogy <cit
+                  type="source">
+                  <quote>úgy kell embernek <app>
+                        <lem wit="#B">tartania</lem>
+                        <rdg wit="#L">tartani</rdg>
+                     </app> az ő testét, miképpen az orvos tartja a kórt</quote>
+                  <bibl><author>Bernard of Clairvaux</author></bibl>
+               </cit>. Mely orvos <app>
+                  <lem wit="#B">sokakat</lem>
+                  <rdg wit="#L">sokat</rdg>
+               </app> ad a kórnak, <app>
+                  <lem wit="#B">melyeket</lem>
+                  <rdg wit="#L">melyet</rdg>
+               </app> ő nem akarna <app>
+                  <lem wit="#B">vennie hozzája</lem>
+                  <rdg wit="#L">őhozzá vennie</rdg>
+               </app>, és <app>
+                  <lem wit="#B">sokakat</lem>
+                  <rdg wit="#L">sokat</rdg>
+               </app> megtilt őtőle, <app>
+                  <lem wit="#B">melyeket</lem>
+                  <rdg wit="#L">melyet</rdg>
+               </app> ő kívánna. Továbbá miképpen az úr veri az ő szolgáját azért, hogy jóvá legyen,
+               és miképpen az ember ő ellenségét <app>
+                  <lem wit="#L">mikoron meggyőzi</lem>
+                  <rdg wit="#B"><subst>
+                        <del>meggyőzi</del>
+                        <add>mikoron meggyőzi</add>
+                     </subst></rdg>
+               </app>, <app>
+                  <lem wit="#B">úgy</lem>
+                  <rdg wit="#L">annyira</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">gyötri meg</lem>
+                  <rdg wit="#L">meggyötri</rdg>
+               </app>, hogy továbbá őellene fel ne támadjon, és őtet meg ne ölje. Ezenképpen kell
+               minekünk is <app>
+                  <lem wit="#L">tennünk</lem>
+                  <rdg wit="#B">tennie</rdg>
+               </app> a mi testünkkel. Mert úgy mond Szent Bernáld: <cit>
+                  <quote>A mi <app>
+                        <lem wit="#L">testünk</lem>
+                        <rdg wit="#B">testünt</rdg>
+                     </app> házunkbeli ellenség, ki igyekezik minket megölnie.</quote>
+                  <bibl><author>Bernard of Clairvaux</author></bibl>
+               </cit> Soha nincsen nagyobb ellensége embernek és gonoszabb, mint az ő teste, mert
+               ember ő ellenségének ellene oltalomra való <pb edRef="#L" n="144v"/>mesterséget lel,
+               de az ő teste ellen nem lel egyebet, hanem csak szenvedetességeket. És mennyivel
+               inkább ember kedvét keresi ő testének megtágítván <app>
+                  <lem wit="#B">nekie</lem>
+                  <rdg wit="#L">neki</rdg>
+               </app> az ő okosságának zaboláját, <app>
+                  <lem wit="#L">annyival</lem>
+                  <rdg wit="#B">annál</rdg>
+               </app> inkább jár a lélek ellen. És hasonlatos a test a kövér lóhoz, kinek mikoron <app>
+                  <lem wit="#B">megeresztetik zabolája</lem>
+                  <rdg wit="#L">megeresztik zaboláját</rdg>
+               </app>, nem gondol avval, ki rajta ül, bátor királyfiú legyen is, hogy megsérzik, de
+               felszökvén rúgván mind az földhöz veri. Ezenképpen vagyon a testről, ki
+               gyönyörűséggel tartatik, kinek mikoron megszalasztják az okosságnak zaboláját, nem
+               gondol a lélekről, ki Istennek képére vagyon teremtetvén, jóllehet hogy ővele
+               egyetemben elkárhozik, de mindenkoron felszök az ő gonosz <app>
+                  <lem wit="#B">kívánságinak</lem>
+                  <rdg wit="#L">kívánságának</rdg>
+               </app> miatta.</p>
+
+            <p>Kiről olvastatik ilyen példa. Vala egy király, kinek <pb edRef="#L" n="145r"/>vala
+               egy szép kertje, mely kertet ő adá őriznie két embernek, kik kö<pb edRef="#B" n="6r"
+                  break="n"/>zül egyik vak vala, másik béna. Kik mikoron meg akarnák orozni a
+               kertnek gyümölcsét, nem tehetik vala, mert a sánta fel nem igazulhat vala, hogy
+               felérné a magas fán a szép gyümölcsöt, az vak pediglen nem látja vala. Tanácsot
+               tartanak, és mondá a sánta a vaknak: <quote>Végy fel engem válladra, és én
+                  eligazgatlak, mely fa alá menj. <app>
+                     <lem wit="#B"/>
+                     <rdg wit="#L" cause="addition">És</rdg>
+                  </app>Én leszaggatom az szép gyümölcsét, és <app>
+                     <lem wit="#B">veled</lem>
+                     <rdg wit="#L">teveled</rdg>
+                  </app> közlöm.</quote> Melyet mikoron megtettek volna, eljöve a király, és meglátá
+               a kárt, kit tettenek vala a gyümölcsben. Kérdezni fogá őket, de ők megmentik vala
+               magukat, a vak avval, hogy nem látna, és az sánta, hogy nem járhatna. De a király <app>
+                  <lem wit="#B">ő álnokságukat megismervén</lem>
+                  <rdg wit="#L">megismervén ő álnoksáukat</rdg>
+               </app> mindkettőt halálra ítélé. Ezenképpen vagyon a lélekről, ki vezérli a <pb
+                  edRef="#L" n="145v"/>testet a gonoszságnak téteményére. Mely gonoszságokat sem a
+               test <app>
+                  <lem wit="#B">az</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> lélek nélkül, sem a lélek a test nélkül nem tehetné. Ó azért ember, úgy
+               keressed kedvét testednek, hogy <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">a</rdg>
+               </app> lelkedet el ne kárhoztassad miatta! Továbbá eszedbe vegyed, hogy a bűnös
+               emberrel ő halálának idején hármak <app>
+                  <lem wit="#B">osztoznak</lem>
+                  <rdg wit="#L"><subst>
+                        <del>olvastatik</del>
+                        <add>osztoznak</add>
+                     </subst></rdg>
+               </app>, <app>
+                  <lem wit="#B">tudnia illik</lem>
+                  <rdg wit="#L">tudniamint</rdg>
+               </app> féreg, ördög és ez világ, <app>
+                  <lem wit="#B">ki</lem>
+                  <rdg wit="#L">kik</rdg>
+               </app> mind úgy szereti az ő részét, hogy az két <app>
+                  <lem wit="#L">részen</lem>
+                  <rdg wit="#B"><subst>
+                        <del>részem</del>
+                        <add>részen</add>
+                     </subst></rdg>
+               </app> nem adnája. Mert a féreg úgy szereti a testet, hogy nem adná sem a lelken, sem
+               a marhán, mert jóllakik vele. És az ördög úgy szereti a lelket, hogy nem adná sem a
+               testen, sem a marhán, mert <app>
+                  <lem wit="#B">örökkül</lem>
+                  <rdg wit="#L">örökké</rdg>
+               </app> gyötri <app>
+                  <lem wit="#B">azt</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> pokolban. És <app>
+                  <lem wit="#B">ez világ, azaz</lem>
+                  <rdg wit="L"/>
+               </app> az ő rokonai, avagy egyéb emberek, úgy szeretik ez világi marhát, hogy semmit
+               nem gondolnak az ő testével, sem pediglen igen <app>
+                  <lem wit="#B">szorgalmatosak</lem>
+                  <rdg wit="#L">szorgalmasok</rdg>
+               </app> az ő <pb edRef="#L" n="146r"/>lelkével, de keresik <app>
+                  <lem wit="#L">csak</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> az ő marháját, és feltombolják. És ezenképpen leszen mindennek, ki halálos
+               bűnben hal meg, tudnia illik az ő teste adatik féregnek, az ő lelke <app>
+                  <lem wit="#L">ördögnek</lem>
+                  <rdg wit="#B"><subst>
+                        <del>féregnek</del>
+                        <add>ördögnek</add>
+                     </subst></rdg>
+               </app>, és <app>
+                  <lem wit="#B">az</lem>
+                  <rdg wit="#L"/>
+               </app> ő marhája ez világi embereknek. Ó azért bűnös ember, vedd eszedbe ezeket, hogy
+               el ne veszesd testedet, lelkedet és mindeneket, melyeket vallasz, avagy meg<pb
+                  edRef="#B" n="6v" break="n"/>vallhatsz. Miképpen <app>
+                  <lem wit="#L">elveszté</lem>
+                  <rdg wit="#B">veszté</rdg>
+               </app> a gazdag <app>
+                  <lem wit="#L">dölyfös</lem>
+                  <rdg wit="#B">dölysös</rdg>
+               </app>, ki mindazokból, kiket itt ez világon bír vala, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">csak</rdg>
+               </app> egy <app>
+                  <lem wit="#B">cseppenet</lem>
+                  <rdg wit="#L">csepp</rdg>
+               </app> vizet <app>
+                  <lem wit="#B">nem</lem>
+                  <rdg wit="#L">sem</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">nyerhet vala</lem>
+                  <rdg wit="#L">nyerhete</rdg>
+               </app> a másvilágon, miképpen Urunk Krisztus mondá a szent evangéliumban, de
+               mindörökkül örökké kínzattatik pokolban, és ott siratja magát.</p>
+
+            <p>Példa róla. Vala két atyafiú, egyik bölcs vala, másik bolond <app>
+                  <lem wit="#B">vala</lem>
+                  <rdg wit="#L"/>
+               </app>. Kik mikoron messze <app>
+                  <lem wit="#B">földé</lem>
+                  <rdg wit="#L">földre</rdg>
+               </app> elbujdostanak volna ő <app>
+                  <lem wit="#B">honjuktól</lem>
+                  <rdg wit="#L">hazájuktól</rdg>
+               </app>, és akarnának <app>
+                  <lem wit="#L">hazatérni</lem>
+                  <rdg wit="#B">hazatérniük</rdg>
+               </app>, és <app>
+                  <lem wit="#L">juttanak</lem>
+                  <rdg wit="#B">jöttenek</rdg>
+               </app> volna egy helyre, holott kettőztetnék az út, <pb edRef="#L" n="146v"/>látának
+               írást ott, ki azt mondja vala, hogy a jobb kézre való út jóllehet hogy szoros,
+               darabos és kemény, demaga bátorságos, de a bal kézre való út jóllehet hogy széles és
+               gyönyörűséges, demaga tolvajokkal rakva. Az bölcs azért akara mennie a jobb kézre
+               való úton, de az ő bolond atyjafiának kérémésének miatta meggyőztetvén mene a bal
+               kézre való úton. Megfogattanak pediglen az tolvajoktól, és megsebhedtetének, és
+               megfosztatának, és vettetének egy mély verembe, ki rakva vala kígyóval, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">és</rdg>
+               </app> békával és sárkányokkal, hogy azok ölnéjék meg őket az ő <app>
+                  <lem wit="#B">mardosásuknak</lem>
+                  <rdg wit="#L">mardosásinak</rdg>
+               </app> miatta. <app>
+                  <lem wit="#B">Mely atyafiak</lem>
+                  <rdg wit="#L">Mely két atyafiú</rdg>
+               </app> mikoron a veremben igen sírnának, látá a bölcs, hogy a kígyók akarnáják <app>
+                  <lem wit="#L">őket</lem>
+                  <rdg wit="#B">őtet</rdg>
+               </app> megmarnia, sírván és átkozván ő atyjafiát mondja vala: <quote>Ó átkozott
+                  atyámfia, jobb volt volna, ha soha nem ismertelek volna meg, mert teneked engedvén
+                  meggyőztetem, <pb edRef="#L" n="147r"/>és ím én <app>
+                     <lem wit="#B">mind teveled egyetemben elveszek</lem>
+                     <rdg wit="#L"> te is, mindketten elveszünk</rdg>
+                  </app> keserűséges szörnyű halállal.</quote> Felele a bolond, és mondá neki:
+                  <quote>Sőt inkább te légy átkozott, mert mikoron te bölcs volnál,
+                  megszabadíthattál volna mind engemet, mind <app>
+                     <lem wit="#B">tennenmagadat</lem>
+                     <rdg wit="#L">temagadat</rdg>
+                  </app>, de miért énnekem, bolondnak engedél, <app>
+                     <lem wit="#L"/>
+                     <rdg wit="#B"><del>íme</del></rdg>
+                  </app> íme egyetemben elveszünk.</quote> Ezenképpen leszen pokolban, holott <app>
+                  <lem wit="#B">örök</lem>
+                  <rdg wit="#L">erők</rdg>
+               </app> sírással a lélek test ellen, és a test lélek ellen <app>
+                  <lem wit="#L">zúgódnak</lem>
+                  <rdg wit="#B">zúgódnat</rdg>
+               </app>, <app>
+                  <lem wit="#B">morgódnak</lem>
+                  <rdg wit="#L">morognak</rdg>
+               </app>, hogy egyetemben estenek a tolvajok közé, azaz ördögök közé, és a kígyóknak
+                  <pb edRef="#B" n="7r"/><app>
+                  <lem wit="#L">mardosási</lem>
+                  <rdg wit="#B">mardási</rdg>
+               </app> közé, azaz pokolbeli kínokba. Azért, hogy a lélek, midőn volna okosságos,
+               meggyőztetett és <app>
+                  <lem wit="#B">megcsalatott</lem>
+                  <rdg wit="#L">megcsalattatott</rdg>
+               </app> a testnek <app>
+                  <lem wit="#B">ő bolondságos késztetésének</lem>
+                  <rdg wit="#L">bolondsága</rdg>
+               </app> miatta. Ó azért bűnös ember, mit fekesz bűnökben, <app>
+                  <lem wit="#B">eszedbe vegyed</lem>
+                  <rdg wit="#L">vedd eszedbe</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">ez</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>
+               <app>
+                  <lem wit="#B">veszedelmeket</lem>
+                  <rdg wit="#L">veszedelmedet</rdg>
+               </app>, és oltalmazzad magadat <app>
+                  <lem wit="#B">őtőlük</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>. Mert ha valamennyi esztendők elmúlnak, <app>
+                  <lem wit="#L">valaha mégis</lem>
+                  <rdg wit="#B"/>
+               </app>vége <app>
+                  <lem wit="L">lenne</lem>
+                  <rdg wit="#B">volna</rdg>
+               </app>
+               <app>
+                  <lem wit="#L">is</lem>
+                  <rdg wit="#B">mégis</rdg>
+               </app>, <app>
+                  <lem wit="#L">jó</lem>
+                  <rdg wit="#B">jól</rdg>
+               </app> volna, de soha vége nem leszen. Jaj azért neked, <pb edRef="#L" n="147r"/>mert
+               elvész. Jaj, mert testedben gyötrettetel. Jaj, mert minden jókat elvesztesz. Jaj,
+               mert mennyországból kirekesztetel, és minden gonoszba esel örökkül örökké. Ó én
+               Istenem, ha ezt eszükben tartanák ez világi emberek, bizonyában könnyen <app>
+                  <lem wit="#B">megoltalmaznák</lem>
+                  <rdg wit="#L">megoltalmazhatnák</rdg>
+               </app> magukat bűntől.</p>
+
+            <p>Miképpen a test és a lélek, a bűnök és a jószágok összevívnak. A kevélység <app>
+                  <lem wit="#L">ezt</lem>
+                  <rdg wit="#B">azt</rdg>
+               </app> mondja: <quote>Feljebben való vagy mindeneknél, azért tarts fel
+                  fejedet.</quote> Az alázatosság reá felel mondván: <quote>Emlékezzél meg szegény
+                  nyavalyás, mert rothadatosság vagy és féreg, meg kell halnod.</quote> Hiú dicsőség
+               ezt mondja: <quote>Mutassad ki a jót, kit tész, hogy jónak és szentnek
+                  mondjanak.</quote> Úrnak félelme reá felel mondván: <quote>A jót nem kell embernek <app>
+                     <lem wit="#B">tennie</lem>
+                     <rdg wit="#L">tenni</rdg>
+                  </app> ez elmúlandókért, de az örök jókért, azért el kell titkolnia, hogy az
+                  Isten, ki látja titokban, megfizesse teneked azt.</quote> Az fösvénységnek
+               kívánsága ezt mondja: <quote>Bűn nélkül kívánha<pb edRef="#L" n="148r" break="n"/>tod
+                  ez világi marhát, és tarthatod, mert netalántán végre megszegényedel, és <app>
+                     <lem wit="#B">mit</lem>
+                     <rdg wit="#L">amit</rdg>
+                  </app> más gonoszul tartana, jobb te tartsad és <app>
+                     <lem wit="#B"/>
+                     <rdg wit="#L" cause="addition">te</rdg>
+                  </app> költsed <app>
+                     <lem wit="#B"/>
+                     <rdg wit="#L" cause="addition">azt</rdg>
+                  </app> el.</quote> De ez világnak megutálása reá felel mondván: <quote>Ez világi
+                  marhát nem keresheti ember veszedelem nélkül, mert mennyivel valaki többet vall,
+                  annyival többet kíván vallania, <app>
+                     <lem wit="#L">de</lem>
+                     <rdg wit="#B">és</rdg>
+                  </app> bizonyában ő halálának idején mind elhagyja.</quote> Az bujaság ezt mondja:
+                  <quote>Isten <app>
+                     <lem wit="#B"/>
+                     <rdg wit="#L" cause="addition">mind</rdg>
+                  </app> ez világnak eredetitől fogva teremte férfiat és asszonyállatot azért, hogy
+                  egymást szeressék a <app>
+                     <lem wit="#L"/>
+                     <rdg wit="#B"><del>testi</del></rdg>
+                  </app> testi gyönyörűségért, mert ha minden ember szüzességet tartana, ez világ
+                  régen eltöretett volna.</quote> De a tisztaság reá felel mondván:<pb edRef="#B"
+                  n="7v"/>
+               <quote>Semmi <app>
+                     <lem wit="#B">förtelmes</lem>
+                     <rdg wit="#L">fertelmetes</rdg>
+                  </app> be nem megyen <app>
+                     <lem wit="#B">mennyországba</lem>
+                     <rdg wit="#L">mennyeknek országába</rdg>
+                  </app>. Azért annyival inkább tisztábban élj, mennyivel nagyobban látod, hogy az
+                  Istentől neked adott idő hamar elmúlik, hogy el ne véssz, de hogy <pb edRef="#L"
+                     n="148v"/>mennyországban megkoronáztassál Istentől a tisztaságnak
+                  tartásáért.</quote> Az harag azt mondja: <quote>Ha mind békességgel <app>
+                     <lem wit="#B">elszenveded</lem>
+                     <rdg wit="#L">elszenvedjük</rdg>
+                  </app> a <app>
+                     <lem wit="B">rajtad</lem>
+                     <rdg wit="#L">rajtunk</rdg>
+                  </app> tett bosszúságot, tehát gyermeknek alítnak, és sokkal többet tesznek
+                  terajtad. Tégy azért róla, állj bosszút.</quote> Az békesség reá felel, és ezt
+               mondja: <quote>Mely igen sok bosszúságokat szenvedett <app>
+                     <lem wit="#B">teéretted</lem>
+                     <rdg wit="#L"/>
+                  </app> az Krisztus, mennyi sok vereségeket megnevetéseket, hagyapásokat,
+                  töviskoronát, keresztfát. És te szegény nyavalyás egy igét nem <app>
+                     <lem wit="#L">tűrhetsz</lem>
+                     <rdg wit="#B">törhetsz</rdg>
+                  </app>, és el nem viselhetsz <app>
+                     <lem wit="#B">őérette</lem>
+                     <rdg wit="#L">Krisztusért</rdg>
+                  </app>.</quote> A torkosság azt mondja: <quote>Úristen azért teremtett mindeneket,
+                  hogy ember éljen <app>
+                     <lem wit="#B">velük</lem>
+                     <rdg wit="#L">ővelük</rdg>
+                  </app>, egyék, igyék és vigadjon.</quote> Az szenvedetesség azt mondja és reá
+               felel mondván: <quote>Jóllehet hogy Isten <app>
+                     <lem wit="#B">mindeneket</lem>
+                     <rdg wit="#L">mindenek</rdg>
+                  </app> azért teremtett, hogy ember éljen velük, és hogy meg ne haljon éhel, de
+                  hogy ételben, italban az mértékletességet felül ne haladja, <app>
+                     <lem wit="#L">de csak</lem>
+                     <rdg wit="#B"/>
+                  </app> a szenvedetességet <pb edRef="#L" n="149r"/><app>
+                     <lem wit="#L">elégítse</lem>
+                     <rdg wit="#B">elégíté</rdg>
+                  </app> meg.</quote> Az irigység ezt mondja: <quote>Sokakat tehetsz, kiket <app>
+                     <lem wit="#L">más</lem>
+                     <rdg wit="#B">amaz</rdg>
+                  </app> nem <app>
+                     <lem wit="#L">tehet</lem>
+                     <rdg wit="#B">teheti</rdg>
+                  </app>, azért nem kell <app>
+                     <lem wit="#B">lennie neki</lem>
+                     <rdg wit="#L">neki lenni</rdg>
+                  </app> feljebbvalónak náladnál, avagy hozzád hasonlatosnak.</quote> Atyafiúságos
+               egyenlőség reá felel mondván: <quote>Ha egyebeket jószágos <app>
+                     <lem wit="#L">mívelkedeteddel</lem>
+                     <rdg wit="#B">mívelkedekkel</rdg>
+                  </app> felülhaladsz, jobb és <app>
+                     <lem wit="#L">használatosabb</lem>
+                     <rdg wit="#B">használatos</rdg>
+                  </app>, ha magadat megalázod. Mert ki magasban hág, ha <app>
+                     <lem wit="#B">esnie</lem>
+                     <rdg wit="#L">esni</rdg>
+                  </app> történik, nehezebben esik.</quote> A gyűlöség azt mondja: <quote>Távol
+                  legyen tetőled, hogy amaz embert szeressed, kit mindenben ellenségest
+                  vallasz.</quote> Az isteni szeretet reá felel mondván: <quote><app>
+                     <lem wit="#B">Azért nem kell</lem>
+                     <rdg wit="#L">Nem kell azért</rdg>
+                  </app> megutálnia és gyűlölnie az Istennek képét, ki emberben vagyon, de szeretnie
+                  kell az természetet, kit Isten teremtett, de csak a bűnt kell gyűlölnie.</quote> A
+               rágalmasság ezt mondja: <quote>Vajon <app>
+                     <lem wit="#B">ki</lem>
+                     <rdg wit="#L"/>
+                  </app> szenvedheti el békességgel, mennyi gonoszokat teszen amaz ember, hanem csak
+                  ki <app>
+                     <lem wit="#B">netalán</lem>
+                     <rdg wit="#L">netalántán</rdg>
+                  </app> neki enged.</quote> Az igaz <pb edRef="#B" n="8r"/><app>
+                  <lem wit="#B">feddésnek</lem>
+                  <rdg wit="#L">meg<pb edRef="#L" n="149v" break="n"/>feddésnek</rdg>
+               </app> szabadsága reá felel mondván, hogy: <quote>Atyafiúságos szeretetért embernek ő
+                  atyjafiát szembe kell megfeddenie, és <app>
+                     <lem wit="#B">a rágalmasságtól meg kell oltalmaznia magát</lem>
+                     <rdg wit="#L">meg kell magát oltalmazni a rágalmasságtól</rdg>
+                  </app>.</quote> A jóra való restség ezt mondja: <quote>Ha sokat imádkozol, és
+                  sokat böjtölsz és vigyázsz, sőt elvész, megbolondulsz, és ha sirandasz, szemed
+                  kiapad.</quote> A jóra való <app>
+                  <lem wit="#B">felserkegetés</lem>
+                  <rdg wit="#L">felserkentés</rdg>
+               </app> reá felel mondván: <quote>Nem tudod szegény nyavalyás, ha holnapot éred, avagy
+                  csak egy órát is. Azért mostan tegyed, amit tehetsz a mennyországért, kit nem
+                  vesznek a tunyák, restek, de kik erőt tesznek magukon, azaz penitenciát
+                  tartanak.</quote> Mind <app>
+                  <lem wit="#L">efelől</lem>
+                  <rdg wit="#B">elfelől</rdg>
+               </app> megírtakat mondja Szent Ágoston doktor. No azért valaki ezekben akarand
+               győzedelmes lennie, szükség <app>
+                  <lem wit="#L">őnekie</lem>
+                  <rdg wit="#B">őneki</rdg>
+               </app>, hogy szünetlen imádkozzék, és Urunk Krisztusnak ő szent kínját, halálát
+               forgassa <app>
+                  <lem wit="#B">ő</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> szívében, és őtet kövesse.</p>
+
+            <p>Példa <app>
+                  <lem wit="#B">azokról</lem>
+                  <rdg wit="#L">azok</rdg>
+               </app>, <app>
+                  <lem wit="#B">kik</lem>
+                  <rdg wit="#L">akik</rdg>
+               </app> a testi gyönyörűségeket kívánják, és ő lelküket éhel hagyják meghalnia.
+               Hasonlatosok <app>
+                  <lem wit="#B">ezek</lem>
+                  <rdg wit="#L"/>
+               </app> néminemű <pb edRef="#L" n="150r"/>emberhez, ki mikoron egy unikornis nevű vad
+               előtt futna, hogy őtet meg ne marnája, esék egy nagy mély verembe, és <app>
+                  <lem wit="#L">mikoron</lem>
+                  <rdg wit="#B">midőn</rdg>
+               </app>
+               <app>
+                  <lem wit="#L">aláesnék</lem>
+                  <rdg wit="#B">aláhullna</rdg>
+               </app>, <app>
+                  <lem wit="#L"/>
+                  <rdg wit="#B" cause="addition"><del>esék</del></rdg>
+               </app> egy bokorhoz kapaszkodék <app>
+                  <lem wit="#L"/>
+                  <rdg wit="#B" cause="addition">esmeg</rdg>
+               </app> ő kezeivel, és lábaival <app>
+                  <lem wit="#L">álla</lem>
+                  <rdg wit="#B">alá</rdg>
+               </app> egy állhatatlan <app>
+                  <lem wit="#B">iszamó kőre</lem>
+                  <rdg wit="#L">kőre, ki iszamó vala</rdg>
+               </app>. Tekintvén pediglen az ember a bokornak gyökerére, kihez tartozik vala, látá
+               tehát két egér <app>
+                  <lem wit="#B">egyik fehér, másik fekete, rágja az bokornak gyökerét</lem>
+                  <rdg wit="#L">rágja a bokornak gyökerét, egyik vala fehér, másik fekete</rdg>
+               </app>, és immár közel valának, hogy általrágnáják. Tekinte a veremnek fenekére, láta
+               egy nagy rettenetes sárkányt, ki ő szájából lángos tüzet ereszt vala, és ő száját
+               megtátván kívánja vala őtet megmarnia. Tekinte továbbá <app>
+                  <lem wit="#B">a</lem>
+                  <rdg wit="#L">e</rdg>
+               </app> kőre, kin <app>
+                  <lem wit="#L"/>
+                  <rdg wit="#B">lábán</rdg>
+               </app> áll vala, látá tehát négy kígyó tolta ki fejét akarván ő lábát megmarnia.
+               Felemelvén pediglen az ő szemeit láta egy kevés mézet <app>
+                  <lem wit="#B">aláfolynia</lem>
+                  <rdg wit="#L">aláfolyni</rdg>
+               </app> a bokornak ágáról. Elfeledé az vesze<pb edRef="#L" n="150r" break="n"
+               />delmeket, <app>
+                  <lem wit="#B">kikbe</lem>
+                  <rdg wit="#L">kibe</rdg>
+               </app> vala vettetvén mindenfelől, a <pb edRef="#B" n="8v"/>mézen foga nyalakodnia.
+               És azonközben a két egér elrágá a bokornak gyökerét, és a kígyók megmarák az ő
+               lábait, és esék a sárkánynak torkába. Lélek szerént az unikornis vad a halál, ki <app>
+                  <lem wit="#B">embert űzi mindenha</lem>
+                  <rdg wit="#L">mindenha űz embert</rdg>
+               </app>, és kívánja őtet megmarnia. Az verem ez világ, ki <app>
+                  <lem wit="#B">minden gonoszokkal rakva</lem>
+                  <rdg wit="#L">rakva minden gonoszsággal</rdg>
+               </app>. A bokor embernek élete, kit a két egér, <app>
+                  <lem wit="#L">a</lem>
+                  <rdg wit="#B"/>
+               </app> fehér és fekete, <app>
+                  <lem wit="#L">megemészti</lem>
+                  <rdg wit="#B">megemészt</rdg>
+               </app>, azaz rágja a nap és az éj. A négy kígyófő <app>
+                  <lem wit="#B">pediglen</lem>
+                  <rdg wit="#L">avagy</rdg>
+               </app> a négy éltető állat, <app>
+                  <lem wit="#B">mint tudnia illik</lem>
+                  <rdg wit="#L">tudniamint</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">egy</lem>
+                  <rdg wit="#L">egyik</rdg>
+               </app> föld, más víz, harmad tűz, negyed ég, kikből embernek teste szereztetett. A
+               sárkány pedig pokolnak szája, ki mindent kíván megmarnia. Az méz pediglen ez világnak
+               hazug gyönyörűsége, ki miatt ember megcsalattatik, és <app>
+                  <lem wit="#B">örökkül</lem>
+                  <rdg wit="#L">örökké</rdg>
+               </app> elkárhozik.</p>
+
+            <p>Embernek harmad ellensége az <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L"><del>világ</del></rdg>
+               </app> ördög, ki ellenkedik mivelünk, és utánunk leselkedik három időben. Először ez
+               jelen va<pb edRef="#L" n="151r" break="n"/>ló világnak életiben, másodszor ez
+               világból <app>
+                  <lem wit="#B">kimenésnek</lem>
+                  <rdg wit="#L">kimenésének</rdg>
+               </app> idején, harmadszor az utolsó ítéleten. Mondám, hogy először az ördög
+               leselkedik ember után ez világnak életében <app>
+                  <lem wit="#B">külön-külön</lem>
+                  <rdg wit="#L">különb-különb</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">kísérteteknek miatta</lem>
+                  <rdg wit="#L">kísértetekkel</rdg>
+               </app>, hogy őtet meggyőzhesse és mennyországba fel ne eressze, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L"><del>hanem</del></rdg>
+               </app> honnan ő esett alá, de hogy őtet <app>
+                  <lem wit="#B">kárhoztassa</lem>
+                  <rdg wit="#L">elkárhoztassa</rdg>
+               </app> és pokolra vigye, holott örökkül örökké ővele kínzattassék. És míglen az ördög
+               látja embernek ő testét élnie, bátor ösztövér legyen is, soha nem <app>
+                  <lem wit="#B"><subst>
+                        <del>kedvelkedik</del>
+                        <add>kételkedik</add>
+                     </subst></lem>
+                  <rdg wit="#L">kedvelkedik</rdg>
+               </app> benne, hogy meg nem nyerhetnéje a lelket. Mert sem aranyat, sem ezüstöt, sem
+               ez világi marhát keres, hanem csak a lelket. Azért vagyon írván Mózes prófétának első
+               könyvének tizennegyed részében, hogy egy időben jöve ördög Istennek eleibe, és mondá:
+                  <cit type="bible">
+                  <quote>Adjad énnekem embereknek ő <app>
+                        <lem wit="#B">lelküket</lem>
+                        <rdg wit="#L">lelkét</rdg>
+                     </app>, és ez világi marha mind tied legyen.</quote>
+                  <bibl>Gn. 14, 21</bibl>
+               </cit> Mert miképpen a sólyommadár azért űzi a kismadarat, <pb edRef="#L" n="151v"
+               />hogy kívánja <app>
+                  <lem wit="#B">az</lem>
+                  <rdg wit="#L" cause="addition"/>
+               </app> ő szívét megennie, ezenképpen az ördög azért háborgatja az embert, hogy
+               kívánja ő lelkét elkárhoztatnia a <pb edRef="#B" n="9r"/>nagy irigységnek miatta, kit
+               vall az emberhez azért, hogy oda megyen, honnan ő aláesett. Minek okáért sem eszik,
+               sem iszik, sem aluszik, de mind <app>
+                  <lem wit="#B">éj-nappá</lem>
+                  <rdg wit="#L">éjjel-nappal</rdg>
+               </app> kerengi ez világot <app>
+                  <lem wit="#B">lelkeket keresvén elkárhoztatnia</lem>
+                  <rdg wit="#L">keresvén elkárhoztatni a lelkeket</rdg>
+               </app>. És immár annyi számtalan <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">ezer</rdg>
+               </app> lelkeket vitt pokolba, hogy ha kijöhetnének, <app>
+                  <lem wit="#B">ez földnek színét betölthetnék mind</lem>
+                  <rdg wit="#L">mind betölthetnék a földnek színét</rdg>
+               </app> az hegyiglen, és ez nem csoda, mert miképpen Isten megjelentette, úgy mennek
+               be pokolba a bűnös lelkek, miképpen az eső. Demaga mégsem elég <app>
+                  <lem wit="#L">őnekie</lem>
+                  <rdg wit="#B">őneki</rdg>
+               </app>, de többet kíván, és <app>
+                  <lem wit="#B">utánunk ballag</lem>
+                  <rdg wit="#L">ballag utánunk</rdg>
+               </app>
+               <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">mind</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">éjjel-nappal</lem>
+                  <rdg wit="#L">éjigl-nappal</rdg>
+               </app>, keresvén, kit megcsalhatna. Azért mondja Szent Péter apostol: <cit>
+                  <quote>Atyámfiai, józanok legyetek, és vigyázzatok, mert a ti ellenségtek,
+                     pokolbeli ördög, miképpen a rívó <pb edRef="#L" break="152r"/>oroszlán, kereng
+                     keresvén, kit <app>
+                        <lem wit="#B">megmarhasson</lem>
+                        <rdg wit="#L">megmarhatna</rdg>
+                     </app>, kinek ellene álljatok <app>
+                        <rdg wit="#L">a</rdg>
+                        <rdg wit="#B" cause="omission"/>
+                     </app> hitben erősek lévén.</quote>
+                  <bibl>I Pt. 5, 8–9</bibl>
+               </cit> Továbbá úgy mond Szent Gergely doktor, hogy: <cit type="source">
+                  <quote>Az ördög ez földet kerengi, nem lépés szerént, de miképpen a lélek, avagy <app>
+                        <lem wit="#L">a</lem>
+                        <rdg wit="#B" cause="omission"/>
+                     </app> szél, repesvén, és mindeneket <app>
+                        <lem wit="#B">meghallja</lem>
+                        <rdg wit="#L">meghall</rdg>
+                     </app>, <app>
+                        <lem wit="#B">melyek mondattanak</lem>
+                        <rdg wit="#L">melyeket mondandnak</rdg>
+                     </app>, és mindeneket meglát, <app>
+                        <lem wit="#B">melyek tétetnek</lem>
+                        <rdg wit="#L">amelyeket tesznek</rdg>
+                     </app>, demaga azokat, <app>
+                        <lem wit="#B">melyek az szívbe forgattatnak</lem>
+                        <rdg wit="#L">melyeket emberek szívükben forgatnak</rdg>
+                     </app>, <app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="addition">semmiképpen</rdg>
+                     </app> nem tudja.</quote>
+                  <bibl><author>Saint Gregory the Great</author></bibl>
+               </cit> Mert ha <app>
+                  <lem wit="#B">embernek</lem>
+                  <rdg wit="#L">embereknek</rdg>
+               </app> gondolatit tudná, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">tehát</rdg>
+               </app> semmi jót nem hagyna <app>
+                  <lem wit="#B">tennie</lem>
+                  <rdg wit="#L">tenniük</rdg>
+               </app>. Továbbá azon Szent Gergely mondja, hogy: <cit type="source">
+                  <quote>Az gondolat, akármely <app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="addition">igen</rdg>
+                     </app> fertelmes legyen, soha <app>
+                        <lem wit="#B">az lelket meg nem fertőzteti</lem>
+                        <rdg wit="#L">meg nem fertőzteti a lelket</rdg>
+                     </app>, ha az okosság reá nem enged.</quote>
+                  <bibl><author>Saint Gregory the Great</author></bibl>
+               </cit> Továbbá úgy mond Szent Amborus doktor: <cit type="source">
+                  <quote>Ördögöknek <app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="addition">ez</rdg>
+                     </app> dolguk <app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="addition">hogy</rdg>
+                     </app> minket <app>
+                        <lem wit="#L">gonosszal kínálnia</lem>
+                        <rdg wit="#B">gonoszra kéztessenek</rdg>
+                     </app>, de mi dolgunk <pb edRef="#L" n="152r"/>annak nem engednie.</quote>
+                  <bibl><author>Ambrose</author></bibl>
+               </cit> Mert mennyiszer ellene állunk, annyiszor őtet meggyőzzük, <app>
+                  <lem wit="#L">az</lem>
+                  <rdg wit="#B"/>
+               </app> angyalokat megvigasztaljuk, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L">az</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">Istent</lem>
+                  <rdg wit="#L">Úristent</rdg>
+               </app> tiszteljük. Ki arra int minket, hogy viaskodjunk, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L">és ő</rdg>
+               </app> megsegít, hogy <app>
+                  <lem wit="#B">győzzünk</lem>
+                  <rdg wit="#L">meggyőzzük</rdg>
+               </app>, és megerősít, hogy meg ne fogyatkozzunk. Ezeket mondja Szent Amborus doktor.
+               Ha pediglen <app>
+                  <lem wit="#B">ellene állásnak ábrázatják kérded</lem>
+                  <rdg wit="#L">te kérdenéd ellene állásnak ő ábrázatját</rdg>
+               </app>, imez, hogy minden bűnnek ellene, kivel kísért, <pb edRef="#B" break="9v"
+               />jószágos dolgot véss. Hogyha <app>
+                  <lem wit="#B">kevélységgel kísért</lem>
+                  <rdg wit="#L">kísért a kevélységgel</rdg>
+               </app>, te megalázzad magadat, ha <app>
+                  <lem wit="#B">torkosságnak miatta kísért</lem>
+                  <rdg wit="#L">torkossággal</rdg>
+               </app>, tehát szenvedtessed meg magadat böjttel. Ha pedig bujasággal <app>
+                  <lem wit="#B">kísért</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>, te tarts tisztaságra magadat, hogyha ez világi örömmel, avagy hiú dicsőséggel
+               kísért, siralomnak miatta állj ellene. Ha ezenképpen vívandasz ővele, őtet meggyőzöd,
+               és mennyországot veszed, holott Istentől megkoronáztatol. Mert úgy mond Szent Jób:
+                  <cit type="bible">
+                  <quote>Vitézkedés ember<pb edRef="#L" n="153r" break="n"/>nek élete ez földön,
+                     mert erővel veszik mennyországot, <app>
+                        <lem wit="#B"/>
+                        <rdg wit="#L" cause="addition">és</rdg>
+                     </app> nem tunyán, resten.</quote>
+                  <bibl>Iob 7, 1</bibl>
+               </cit></p>
+
+            <p>Másodszor az ördög leselkedik miutánunk az mi halálunknak idején. Mert mikoron a
+               lélek kiszakad a <app>
+                  <lem wit="#B">testből</lem>
+                  <rdg wit="#L">testtől</rdg>
+               </app>, tehát akkoron nyolc fejedelem ördög <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">az ő</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">katonájukkal</lem>
+                  <rdg wit="#L">katonájával</rdg>
+               </app> egyetemben jelen lesznek a léleknek ő kimenésének kapuján. Kik közül a hét fő <app>
+                  <lem wit="#B">ördögök</lem>
+                  <rdg wit="#L">ördög</rdg>
+               </app> kereskednek szeretetesen a hét fő halálos bűnökről, ha meglelhetnék a <app>
+                  <lem wit="B">lelkekben</lem>
+                  <rdg wit="#L">lélekben</rdg>
+               </app>. <app>
+                  <lem wit="#L">Ha</lem>
+                  <rdg wit="#B">Hogyha</rdg>
+               </app> pediglen nem lelhetik a fő halálos <app>
+                  <lem wit="#L">bűnöket</lem>
+                  <rdg wit="#B"><subst>
+                        <del>bűnének</del>
+                        <add>bűnöket</add>
+                     </subst></rdg>
+               </app>, tehát az ő katonái <app>
+                  <lem wit="#B">szeretetest</lem>
+                  <rdg wit="#L">szeretetesen</rdg>
+               </app> kereskednek a bűnöknek ágazatiról, kiknek miatta avagy csak <app>
+                  <lem wit="B"/>
+                  <rdg wit="#L" cause="addition">hogy</rdg>
+               </app> purgatóriumra vonhatnáják őtet. <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">Azért</rdg>
+               </app>A nyolcadik ördög pediglen szeretetesen keresi a hitetlenséget, ki megdögleti
+               mind az egész kereszténységet. És <app>
+                  <lem wit="#B">ha az</lem>
+                  <rdg wit="#L">az ha</rdg>
+               </app> leselkedéseket, őrizeteket eltávoztatandja a lélek, tehát megkoronáztatik <pb
+                  edRef="#L" n="153v"/>Istentől mennyországnak boldogságában.</p>
+
+            <p>Harmadszor az ördög leselkedik miutánunk az utolsó ítéleten. Mert úgy mond Szent
+               Ágoston doktor: Akkoron az ördög leszen, ki mondván és mielőnkbe <app>
+                  <lem wit="#B">hányván</lem>
+                  <rdg wit="#L">vetvén</rdg>
+               </app> mindeneket, melyeket tettünk mondván: Ó igaz bíró, ítéld <app>
+                  <lem wit="#B">ez embert enyémnek lennie</lem>
+                  <rdg wit="#L">énnekem ez embert</rdg>
+               </app> a bűnért, ki nem akara tiéd <app>
+                  <lem wit="#B">lennie</lem>
+                  <rdg wit="#L">lenni</rdg>
+               </app> a malasztnak miatta. Teneked engedetlen volt, de énnekem engedelmes. Ó mely
+               igen szorosak lesznek akkoron a kárhoztaknak útjai. <pb edRef="#B" n="10r"/> Felül
+               leszen a haragos bíró, alul a rettenetes pokol, jobb <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L">kéz</rdg>
+               </app> felől a vádoló bűnök, bal felől számtalan ördögök <app>
+                  <lem wit="#B">kínokra vonván</lem>
+                  <rdg wit="#L">vonván a kínokra</rdg>
+               </app>, belül <app>
+                  <lem wit="#B">a lelkiismeret leszen</lem>
+                  <rdg wit="#L">leszen a lelkiismeret</rdg>
+               </app> mardosván, és kívül mind ez világ égvén. <cit type="bible">
+                  <quote>Akkoron mennek a jók az örök örömre, és a gonoszok az örök kínra.</quote>
+                  <bibl>Mt 25, 46</bibl>
+               </cit> Ó én Istenem, vajha eszükbe vennék ezt a bűnös emberek!</p>
+
+            <p>Az ördög három bűnök <app>
+                  <lem wit="#B">miatt</lem>
+                  <rdg wit="#L">miatta</rdg>
+               </app> nagyobb részre kárhoztatja a lelket <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">örökké</rdg>
+               </app>. Erről <pb edRef="#L" n="154r"/>olvastatik ilyen példa. Vala régenten egy
+               király, kinek vala egy szép hajadon leánya, ki a bálvány istenektől feleletet vett
+               vala, <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">hogy</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">hogymint</lem>
+                  <rdg wit="#L">hogymihelyt</rdg>
+               </app> házasságra menne, ottan meghalna. Ki megijedvén mezőkön és erdőkön jár vala,
+               és házasságra nem megyen vala. De miérthogy igen gyors, serény vala, ezt szerzé, hogy
+               valaki akarná őtet hozzá vennie házasság szerént, először hamarját futna ővele, és <app>
+                  <lem wit="#L">ha</lem>
+                  <rdg wit="#B"/>
+               </app> meghaladnája, hozzámenne, ha <app>
+                  <lem wit="#L">pediglen</lem>
+                  <rdg wit="#B">pedig</rdg>
+               </app> a leány haladná meg a <app>
+                  <lem wit="#B">legényt</lem>
+                  <rdg wit="#L">vitézt</rdg>
+               </app>, tehát fejét vennéje. És ezenképpen nagy sok ifjú <app>
+                  <lem wit="#B">legények</lem>
+                  <rdg wit="#L">hősök</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">vesztik vala el fejüket</lem>
+                  <rdg wit="#L">veszének el</rdg>
+               </app> miatta. Juta egy ifjú vitéz, <app>
+                  <lem wit="#L">Ipomenes</lem>
+                  <rdg wit="#B"><subst>
+                        <del>jó nemes</del>
+                        <add>Ipomenes</add>
+                     </subst></rdg>
+               </app> nevű, ki akarván ez szüzet hozzá vennie, mene egy bálvány istenhez, kinek vala
+               Vénusz neve. Ki ada neki három aranyalmát, és megtanítá, miképpen járna ővele. Elmene
+               azért az Ipomenes vitéz, <pb edRef="#L" n="154v"/>és hamarját foga futnia az <app>
+                  <lem wit="#B">leánnyal</lem>
+                  <rdg wit="#L">szűzzel</rdg>
+               </app>, ki legottan elhaladá a vitézt, és a vitéz kivevé kebeléből <app>
+                  <lem wit="#B">az egy</lem>
+                  <rdg wit="#L">egyik</rdg>
+               </app> aranyalmát, és eleibe <app>
+                  <lem wit="#B">veté</lem>
+                  <rdg wit="#L">hajítá</rdg>
+               </app>
+               <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">oldalt felől</rdg>
+               </app>. <app>
+                  <lem wit="#B">Oldalt felé</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>
+               <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">Ezt</rdg>
+               </app> látá a <app>
+                  <lem wit="#B">leány</lem>
+                  <rdg wit="#L">szűz</rdg>
+               </app>
+               <app>
+                  <lem wit="#B">az almát</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app>, utána futamék, <app>
+                  <lem wit="#L">és</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> míg odajára, addig elhaladá a vitéz. És <app>
+                  <lem wit="#B">mikoron</lem>
+                  <rdg wit="#L">mikort</rdg>
+               </app>
+               <app>
+                  <lem wit="#B"/>
+                  <rdg wit="#L" cause="addition">esmeg</rdg>
+               </app> elhaladta volna <app>
+                  <lem wit="#B">esmeg</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> a <app>
+                  <lem wit="#B">leány</lem>
+                  <rdg wit="#L">szűz</rdg>
+               </app>, másodszor is úgyan tőn a vitéz, harmadszor is. Megnehezíték pediglen <app>
+                  <lem wit="#B">az leányt az almák</lem>
+                  <rdg wit="#L">az almák a szűzet</rdg>
+               </app>, és <app>
+                  <lem wit="#L">ezenképpen</lem>
+                  <rdg wit="#B" cause="omission"/>
+               </app> elhaladá a vitéz. Hozzája vevé, és <app>
+                  <lem wit="#B">megtöré</lem>
+                  <rdg wit="#L">elveszté</rdg>
+               </app> ő szüzességét. Lélek szerént a szűz leány az lélek, ki igen gyors a jókban, <app>
+                  <lem wit="#B">míglen</lem>
+                  <rdg wit="#L">míg</rdg>
+               </app> tiszta, az Ipomenes vitéz <pb edRef="#B" n="10v"/> pediglen az ördög, ki három
+               aranyalmáknak miatta csalja meg a lelket, tudnia illik kevélységnek miatta,
+               fösvénységnek <app>
+                  <lem wit="#B">miatta</lem>
+                  <rdg wit="#L" cause="omission"/>
+               </app> és paráznaságnak miatta, kikkel mind ez világ teljes. És ezenképpen
+               megszeplősíti és megtöri ő <app>
+                  <lem wit="#B">szüzességének tisztaságát</lem>
+                  <rdg wit="#L">szüzességét és tisztasságát</rdg>
+               </app>, és hozzá veszi pokolnak fenekére, holott <app>
+                  <lem wit="#B">kínozza őtet</lem>
+                  <rdg wit="#L">őtet kínozza</rdg>
+               </app> mindörökkül örökké. <app>
+                  <lem wit="#L"/>
+                  <rdg wit="#B" cause="addition">Ez a vége.</rdg>
+               </app></p>
+         </div>
+      </body>
+   </text>
+</TEI>
